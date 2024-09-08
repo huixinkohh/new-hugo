@@ -21,9 +21,9 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      # Install Hugo CLI
+      # Install Hugo CLI (updated to v3)
       - name: Install Hugo
-        uses: peaceiris/actions-hugo@v2
+        uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: 'latest'
 
